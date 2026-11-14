@@ -1,0 +1,17 @@
+:root { font-family: system-ui, sans-serif; color: #172c32; background: #eef2f1; }
+body { margin: 0; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.25rem max(1rem, calc((100% - 72rem) / 2)); background: #142a31; color: white; }
+h1 { margin: 0; font-size: 1.5rem; }
+main { max-width: 72rem; margin: auto; padding: 1.5rem 1rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
+button { font: inherit; border: 1px solid #b6c7c6; padding: .5rem .75rem; border-radius: .4rem; background: white; color: #172c32; cursor: pointer; }
+button[aria-pressed="true"] { background: #175b55; color: white; border-color: #175b55; }
+button:disabled { cursor: default; color: #58696e; background: #eef2f1; }
+section { background: white; border: 1px solid #ccd8d7; border-radius: .6rem; margin-bottom: 1rem; }
+h2 { font-size: 1rem; margin: 0; padding: 1rem; }
+small { color: #53676b; margin-left: .35rem; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { border-top: 1px solid #e0e7e6; padding: .6rem 1rem; white-space: nowrap; }
+thead { background: #f4f7f7; }
+.step { display: inline-block; margin: .15rem .35rem .15rem 0; padding: .2rem .45rem; background: #e5f2ef; border-radius: .3rem; }
